@@ -1,0 +1,15 @@
+.heading_1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #434a60;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #88d7cb;
+    background-color: azure;
+}
+a {
+    color: #63297b;
+    text-decoration: none;
+}

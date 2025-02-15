@@ -1,0 +1,34 @@
+css -casecading style sheet
+types of css:
+1. inline css
+2. internal css
+3. external css
+
+Inline css - when the css is written inside a tag using style attribute. 
+example - <h1 style="background-color: aqua; color: white ;" > </h1>
+
+
+internal css : when the css is written using style as a tag inside the head tag below title it's called internal css. Example-
+<head>
+<title>docs</title>
+<style>
+     .doc1 {
+        background-color: black ;
+        color: white ;
+     }
+</style>
+</head>
+
+there are three types identifier in css 
+1. tags
+2. id
+3. class
+id- has a requirement you cannot use the same name. each id has to be unique and different.
+well you can keep them same but it'll hinder our work.
+
+class- is pretty much similar to id but you can keep the same name if the work requires it. in class identifier you cannot keep any space in the text you input. example - class ="hallo" if you want space you need fill that gap with an underscore or hyphen
+
+external css : is the one you write in a style sheet file and link it with the html main structure using link tag in the head tag.
+this method makes the code look more clean and neat unlike the two other methods above.
+
+a- text-decoration : none ;
